@@ -134,7 +134,7 @@ export default function Resume() {
                         <p className="resume-card__name">
                             Misboi Consulting Services
                         </p>
-                        <p className="resume-card__details">I work as a Senior Software Developer & Team Lead in Misboi Consulting Services and also completed some projects</p>
+                        <p className="resume-card__details">I work as a Senior Software Developer in Misboi Consulting Services and also completed some projects</p>
                     </div>
                 </div>
             </div>
