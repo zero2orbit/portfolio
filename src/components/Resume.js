@@ -129,7 +129,7 @@ export default function Resume() {
                     </div>
                     <div className="resume-card__body">
                         <h5 className="resume-card__title">
-                            Senior Software Developer & Team Lead
+                            Senior Software Developer
                         </h5>
                         <p className="resume-card__name">
                             Misboi Consulting Services
