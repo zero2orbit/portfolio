@@ -60,7 +60,7 @@ const data_projects = [
     {
         name: 'Doctor Booking System',
         image: API2,
-        deployed_url: 'https://dey-sumit.github.io/NewYear/',
+        //deployed_url: '',
         category: ['springboot', 'api']
     },
 
@@ -68,15 +68,15 @@ const data_projects = [
         name: 'Auto Invoice Processing',
         image: API3,
         //deployed_url: '!#',
-        //github_url: 'https://github.com/Dey-Sumit/color-classification',
+        //github_url: '',
         category: ['springboot', 'machine_learning', 'opencv']
     },
 
     {
         name: 'Intrest Connect',
         image: API4,
-        //deployed_url: 'https://dey-sumit.github.io/Blinking_Bubbles/',
-        //github_url: 'https://github.com/Dey-Sumit/Blinking_Bubbles',
+        //deployed_url: '/',
+        //github_url: '',
         category: ['nodejs', 'api']
     }
 ]
