@@ -40,12 +40,12 @@ export default function Projects() {
                 
         >
             <div className="projects__navbar">
-                <div onClick={() => setProjects(data_projects)}>All</div>
-                <div onClick={() => handleFilterCategory('mern')}>MERN</div>
-                <div onClick={() => handleFilterCategory('nodejs')}>Node Js</div>
-                <div onClick={() => handleFilterCategory('springboot')}>Spring Boot</div>
-                <div onClick={() => handleFilterCategory('opencv')}>OpenCv</div>
-                <div onClick={() => handleFilterCategory('api')}>Apis</div>
+                <div className="sidebar__name" onClick={() => setProjects(data_projects)}>All</div>
+                <div className="sidebar__name" onClick={() => handleFilterCategory('mern')}>MERN</div>
+                <div className="sidebar__name" onClick={() => handleFilterCategory('nodejs')}>Node Js</div>
+                <div className="sidebar__name" onClick={() => handleFilterCategory('springboot')}>Spring Boot</div>
+                <div className="sidebar__name" onClick={() => handleFilterCategory('opencv')}>OpenCv</div>
+                <div className="sidebar__name" onClick={() => handleFilterCategory('api')}>Apis</div>
             </div>
             <div className="row">
 
