@@ -16,11 +16,6 @@ export default function Resume() {
             level: '90'
         },
         {
-            icon: react,
-            name: 'MySql',
-            level: '80'
-        },
-        {
             icon: javascript,
             name: 'java-Script',
             level: '90'
@@ -30,12 +25,14 @@ export default function Resume() {
             name: 'Java',
             level: '70'
         },
-
-        
-       
         {
             icon: react,
-            name: 'Bootstrap',
+            name: 'MySql',
+            level: '80'
+        },,
+        {
+            icon: react,
+            name: 'Postgres',
             level: '80'
         }
     ]
@@ -43,27 +40,29 @@ export default function Resume() {
     const tools = [
         {
             icon: react,
-            name: 'OpenCv',
-            level: '85'
+            name: 'NodeJs',
+            level: '90'
         },
+        
         {
             icon: react,
             name: 'Spring-Boot',
             level: '80'
         },
+        
         {
             icon: react,
-            name: 'NodeJs',
-            level: '90'
-        },
-        {
-            icon: react,
-            name: 'Android',
-            level: '60'
+            name: 'react-Native',
+            level: '70'
         },
         {
             icon: react,
             name: 'reactJs',
+            level: '80'
+        },
+        {
+            icon: react,
+            name: 'OpenCv',
             level: '70'
         },
     
@@ -111,7 +110,7 @@ export default function Resume() {
                         <p className="resume-card__name">
                         Gandhi Institute of Engineering and Technology, Gunpur(2015-2019)
                         </p>
-                        <p className="resume-card__details">I am currently working at MISBOI Consultancy as system designer and team lead software developer</p>
+                        <p className="resume-card__details">I am currently working at Aashdit Technologies as Senior Software Developer and Module lead</p>
                     </div>
                 </div>
                 <div className="col-lg-6 resume-card" >
@@ -132,9 +131,9 @@ export default function Resume() {
                             Senior Software Developer
                         </h5>
                         <p className="resume-card__name">
-                            Misboi Consulting Services
+                        Aashdit Technologies
                         </p>
-                        <p className="resume-card__details">I work as a Senior Software Developer in Misboi Consulting Services and also completed some projects</p>
+                        <p className="resume-card__details">I work as a Senior Software Developer at Aashdit Technologies</p>
                     </div>
                 </div>
             </div>

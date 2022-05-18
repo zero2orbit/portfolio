@@ -7,6 +7,7 @@ import API3 from '../../assets/projects_images/API3.png'
 import API4 from '../../assets/projects_images/API4.png'
 import DRUSIGHT from '../../assets/projects_images/DRUSIGHT.png'
 import ETOM from '../../assets/projects_images/ETOM.png'
+import CMART from '../../assets/projects_images/cmart.png'
 
 const data_projects = [
     {
@@ -78,7 +79,34 @@ const data_projects = [
         //deployed_url: '/',
         //github_url: '',
         category: ['nodejs', 'api']
+    },
+
+    {
+        name: 'C-MART',
+        image: CMART,
+        deployed_url: 'http://cgcmart.in/login',
+        category: ['springboot', 'api']
+    },
+
+    {
+        name: 'E-CAD',
+        image: API4,
+        //deployed_url: '/',
+        //github_url: '',
+        category: ['springboot', 'api']
+    },
+
+    {
+        name: 'SSO',
+        image: API4,
+        //deployed_url: '/',
+        //github_url: '',
+        category: ['springboot', 'api']
     }
+     
+
+
+   
 ]
 
 export default data_projects;

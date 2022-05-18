@@ -7,12 +7,11 @@ export default function Navbar() {
     useEffect(() => {
 
         let currentURL = window.location.href
-        console.log(currentURL);
-        if (currentURL.endsWith('/'))
+        if (currentURL.endsWith('/about'))
             setActive('About');
         else if (currentURL.endsWith('/projects'))
             setActive('Projects')
-        else if (currentURL.endsWith('/resume'))
+        else if (currentURL.endsWith('/'))
             setActive('Resume')
 
     },[active])
@@ -46,8 +45,11 @@ export default function Navbar() {
             </div>
 
             <div className="navbar__items">
-                {active !== 'About' && <Link to="/"><div className="navbar__item" onClick={() => setActive('About')}>About</div> </Link>}
-                {active !== 'Resume' ? <Link to="/resume"><div className="navbar__item" onClick={() => setActive('Resume')}>Resume</div> </Link>: null}
+                
+                {active !== 'Resume' ? <Link to="/"><div className="navbar__item" onClick={() => setActive('Resume')}>Resume</div> </Link>: null}
+
+                {active !== 'About' && <Link to="/about"><div className="navbar__item" onClick={() => setActive('About')}>About</div> </Link>}
+
                 {active !== 'Projects' && <Link to="/projects"> <div className="navbar__item" onClick={() => setActive('Projects')}>Projects</div></Link>}
             </div>
 

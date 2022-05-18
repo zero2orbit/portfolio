@@ -2,7 +2,7 @@ import React from 'react'
 import github from '../assets/icons/github.svg'
 import pin from '../assets/icons/pin.svg'
 import tie from '../assets/icons/tie.svg'
-import mee from '../assets/pic007-min.jpg'
+import mee from '../assets/me.jpeg'
 
 import resume from '../assets/Resume(Badal).pdf'
 import Typed from 'react-typed'
@@ -54,15 +54,15 @@ export default function Sidebar() {
              <div className="sidebar__name">Badal Kumar <span>Behera</span> </div>
              <div className="sidebar__item sidebar__title">
                  <Typed 
-                    strings={["Node jS", 'Python', 'Spring Boot', 'React js', 'MERN', 'OpenCv', 'MySql', 'MongoDB']}
-                    typeSpeed={40}
-                    backSpeed={60}
+                    strings={["Node js", 'Python', 'Spring Boot', 'React js', 'MERN', 'OpenCv', 'Postgres', 'MongoDB', 'Apis', 'Git', 'React Native']}
+                    typeSpeed={100}
+                    backSpeed={100}
                     loop
                  />
              </div>
             <a  href={resume} download="resume(badal).pdf">
-                <div className="sidebar__item sidebar__resume">
-                    <img src={tie} alt="resume" className="sidebar__icon" />Download Resume
+                <div className="sidebar__item sidebar__title blink-soft">
+                    <img src={tie} alt="resume" className="sidebar__icon" />Download CV
                 </div> 
             </a>
 
@@ -76,14 +76,14 @@ export default function Sidebar() {
                     <a href="https://github.com/zero2orbit"><img src={github} alt="github" className="mr-3 sidebar__icon" />github</a>
                 </div>
                 <div className="sidebar__location">
-                    <img src={pin} alt="location" className="mr-3 sidebar__icon" />
+                    <img src={pin} alt="location" className="mr-3 sidebar__icon " />
                     Bhubaneswar, Odisha
                 </div>
-                <div className="sidebar__item">zero2orbit@gmail.com</div>
+                <div className="sidebar__item sidebar__name">zero2orbit@gmail.com</div>
                 <div className="sidebar__item">7008050109  7504150883(wtsApp)</div>
             </div>
             
-            <div className="sidebar__item sidebar__email"  onClick={handleEmailMe}>email me</div>
+            <div className="sidebar__item sidebar__email sidebar__name"  onClick={handleEmailMe}>Email me</div>
         </motion.div>
     )
 }

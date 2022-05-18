@@ -51,16 +51,16 @@ function App() {
               <AnimatePresence exitBeforeEnter>
                 <Switch Location={location} key={location.key}>
                   <Route exact path="/">
-                      <About />
-                  </Route>
-                  <Route path="/resume">
                       <Resume />
+                  </Route>
+                  <Route path="/about">
+                      <About />
                   </Route>
                   <Route path="/projects">
                       <Projects />
                   </Route>
                   <Route>
-                    <Redirect to="/"/>
+                    <Redirect render={() => <Redirect to="/" />}/>
                   </Route>
                 </Switch>
               </AnimatePresence>
