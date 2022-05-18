@@ -16,6 +16,9 @@ function App() {
   return (
     
     <div className="App">
+
+      <div className='prticle_div'>
+
       <Particles 
          params={{
           "particles": {
@@ -36,6 +39,8 @@ function App() {
           }
       }}
       />
+
+</div> 
       <div className="container app__container">
         <div className="row app__row">
           <div className="col-lg-3">

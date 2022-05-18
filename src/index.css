@@ -370,3 +370,11 @@ a:hover {
         font-size: 1rem;
     }
 }
+
+
+
+@media only screen and (max-width: 767px) and (min-width: 320px) {
+    .prticle_div{
+        display:none;
+    }
+}

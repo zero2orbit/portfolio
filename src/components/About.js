@@ -29,16 +29,6 @@ export default function About() {
             title: "Competitive Coder",
             about: "a daily problem solver in HackerRank and Leetcode"
         },
-        // {
-        //     icon: puzzle,
-        //     title: "UI/UX designer",
-        //     about: "minimalistic user interface designer using figma and  framer"
-        // },
-        // {
-        //     icon: repair,
-        //     title: "Whatever",
-        //     about: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis minima autem!"
-        // },
     ]
 
     const about__veriant = {
