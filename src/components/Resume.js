@@ -29,7 +29,7 @@ export default function Resume() {
             icon: react,
             name: 'MySql',
             level: '80'
-        },,
+        },
         {
             icon: react,
             name: 'Postgres',
