@@ -4,7 +4,7 @@ import pin from '../assets/icons/pin.svg'
 import tie from '../assets/icons/tie.svg'
 import mee from '../assets/me.jpeg'
 
-import resume from '../assets/Resume(Badal).pdf'
+import resume from '../assets/Badal_Resume.pdf'
 import Typed from 'react-typed'
 import {motion} from 'framer-motion'
 
